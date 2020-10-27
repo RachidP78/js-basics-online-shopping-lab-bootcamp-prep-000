@@ -33,7 +33,6 @@ function viewCart() {
 }
 
 function total() {
-  var total = 
   for (let i = 0; i > cart.length; i++) {
     total += parseInt(cart[i].itemPrice)
   }
